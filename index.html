@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="theme-color" content="#e33472">
+      <meta name="description" content="Discover new music every day, engage your community and increase activity on your server.">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Daily Music</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="styles.css">
+      <link rel="icon" type="image/x-icon" href="icon.ico?">
+   </head>
+   <body>
+      <div id="loading">
+         <img src="assets/logo-black-png.png" id="loading-logo">
+      </div>
+      <div class="hero-banner">
+         <h1>DAILY MUSIC</h1>
+         <p>Discover new music every day, engage your community <br>and increase activity on your server.</p>
+         <div class="hero-buttons">
+            <a href="https://discord.com/application-directory/1115972980984516719" class="hero-button invite-button">
+            <i class="fas fa-user-plus"></i> 
+            INVITE ME !
+            </a>
+            <a href="https://discord.gg/pqjxCxzNC3" class="hero-button join-button">
+            <i class="fas fa-sign-in-alt"></i>
+            JOIN US AT HOME !  
+            </a>
+            <a href="privacy-policy.html" class="hero-button privacy-policy-button">
+            <i class="fas fa-lock"></i> 
+            PRIVACY POLICY
+            </a>
+            <a href="terms-of-service.html" class="hero-button tos-button">
+            <i class="fas fa-folder"></i>
+            TERMS OF SERVICE 
+            </a>
+         </div>
+      </div>
+      <div class="feature-container">
+         <div class="feature-card">
+            <i class="fas fa-music feature-icon"></i>
+            <div class="feature-title">Discover hidden treasures</div>
+            <div class="feature-description">Configure the bot in just a few clicks and discover new music from every genre, from 8 genres (including Pop, Electro, KPOP, Metal...), every day!</div>
+         </div>
+         <div class="feature-card">
+            <i class="fas fa-chart-line feature-icon"></i>
+            <div class="feature-title">Boost your server activity</div>
+            <div class="feature-description">Our system encourages members to discuss the music of the day, to suggest music they like and to debate about it, which boosts your server's activity!</div>
+         </div>
+         <div class="feature-card">
+            <i class="fas fa-headphones feature-icon"></i>
+            <div class="feature-title">Explore new horizons</div>
+            <div class="feature-description">Fan of an artist? Discover artists similar to your favourite using our system, and explore new horizons with tons of genres similar to your favourites.</div>
+         </div>
+      </div>
+      </section>
+      <script>
+         window.onload = function() {
+           setTimeout(() => {
+             const loading = document.getElementById('loading');
+             loading.style.opacity = 0; 
+             setTimeout(() => {
+               loading.style.display = 'none';
+             }, 1000);
+           }, 1000);
+         }          
+      </script>
+   </body>
+</html>
