@@ -72,7 +72,7 @@ body {
 
 .hero-button:hover {
 	background-color: #ffffff;
-	color: #e33472;
+	color: #794bec;
 	transform: translateY(-10px);
 }
 
@@ -84,7 +84,7 @@ body {
 
 .feature-card {
 	background-color: #ffffff;
-	color: #e33472;
+	color: #794bec;
 	border-radius: 10px;
 	padding: 20px;
 	margin: 20px;
