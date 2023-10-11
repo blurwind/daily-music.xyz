@@ -1,6 +1,6 @@
 body {
 	font-family: 'Montserrat', sans-serif;
-	background: linear-gradient(135deg, #e33472, #d44c88);
+	background: linear-gradient(135deg, #794bec, #633dc1);
 	margin: 0;
 	padding: 0;
 	display: flex;
@@ -55,7 +55,7 @@ body {
 }
 
 .hero-button {
-	background-color: #e33472;
+	background-color: #794bec;
 	color: #ffffff;
 	border: none;
 	font-weight: 700;
