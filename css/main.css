@@ -313,7 +313,13 @@ body {
 		left: 135px;
 		top: 25px;
 	}
-
+	.subtitle-1::before {
+		display: none;
+	}
+	
+	.subtitle-1:hover::before {
+		display: none;
+	}
 	.subtitle-2 {
 		left: 135px;
 		top: 65px;
