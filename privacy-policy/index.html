@@ -35,40 +35,74 @@
          font-size: 16px;
          line-height: 1.5;
          }
+         .card {
+         border: 1px solid #ccc;
+         border-radius: 5px;
+         padding: 15px;
+         margin-bottom: 20px;
+         }
+         .card h3 {
+         margin-top: 0;
+         }
+         .card ul {
+         padding: 0;
+         margin: 0;
+         list-style: none;
+         }
+         .card ul li {
+         margin-bottom: 5px;
+         }
+         .card ul li strong {
+         font-weight: bold;
+         margin-right: 5px;
+         }
       </style>
    </head>
    <body>
       <section class="privacy-policy">
          <h1>PRIVACY POLICY</h1>
-         <p>Effective date: February 2024. <br>Onze Development ("us", "we", or "our") operates the Daily Music Discord bot (the "Service"). <br> This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.</p>
+         <p>Effective date: February 2024. <br>Onze Development ("us", "we", or "our") operates the Daily Music Discord Service (the "Service"). <br> This document outlines the policies governing the collection, usage, and disclosure of personal data associated with the use of our Service, as well as the options available to users regarding their data.</p>
          <hr>
-         <h2>1. Information Collection and Use</h2>
-         <p>We collect the following data to ensure the smooth operation of the bot and its system:</p>
-         <ul>
-            <li>Server ID: This is used to identify the specific server on which the bot is being used.</li>
-            <li>ID of the channel for the music of the day: This is used to determine the designated channel to send the music of the day & the trivia of the day.</li>
-            <li>ID of the role for the music of the day: This is used to determine the designated role to ping for the music of the day & for the trivia of the day.</li>
-            <li>The number of musics of the day sent: For statistics.</li>
-            <li>The date of the last music of the day sent: For statistics.</li>
-            <li>The status of the "Threads" option: This is used to determine the status of the "Threads" option for the music of the day & for the trivia of the day.</li>
-            <li>The status of the "Trivia" option: This is used to determine the status of the "Trivia" option for the trivia of the day.</li>
-            <li>The genre defined for the music of the day: To adapt the music of the day to the defined genre.</li>
-            <li>The type of display selected for the music of the day.</li>
-         </ul>
-         <h2>2. Log Data</h2>
-         <p>Daily Music stores the aforementioned data (Server ID, ID of the channel for the music of the day & for the trivia of the day, ID of the role for the music of the day & for the trivia of the day, the number of musics of the day sent, the date of the last music of the day sent, the status of the "Threads" option, the ID of the thread created by the bot for the music of the day & for the trivia of the day, the status of the "Trivia" option, the genre defined for the music of the day, and the type of display selected for the music of the day) only if the server has been configured to use the bot. <br>If the server configuration is reinitialized or if the bot leaves the server, <b>ALL</b> data linked to that specific server will be <b>PERMANENTLY</b> deleted.</p>
+         <h2>1. Information Collection and Usage</h2>
+         <p>We collect the following data to ensure the smooth operation of the Service and its systems:</p>
+         <div class="card">
+            <h3>If you have configured your server</h3>
+            <p>The following data is collected only if you have configured your server:</p>
+            <ul>
+               <li><strong>Server ID:</strong> Identifies the server on which the Service is being used.</li>
+               <li><strong>Channel ID:</strong> Determines the designated channel for sending music and trivia.</li>
+               <li><strong>Role ID:</strong> Designates the role to ping for music and trivia.</li>
+               <li><strong>Genre:</strong> Defines the genre for the music.</li>
+               <li><strong>Display:</strong> Specifies the display format for the music.</li>
+               <li><strong>Status of the "Threads" option:</strong> Determines the status of the "Threads" option for music and trivia.</li>
+               <li><strong>Status of the "Trivia" option:</strong> Determines the status of the "Trivia" option for trivia.</li>
+               <li><strong>Number of music sent:</strong> Tracks the count of music sent for statistics.</li>
+               <li><strong>Date of the last music sent:</strong> Records the date of the last music sent for statistics.</li>
+            </ul>
+         </div>
+         <div class="card">
+            <h3>If you have played our game</h3>
+            <p>The following data is collected only if you have played our game (Trivia of the Day):</p>
+            <ul>
+               <li><strong>User ID:</strong> Identifies the player.</li>
+               <li><strong>Clicked:</strong> Indicates if the play button was clicked.</li>
+               <li><strong>Guessed:</strong> Indicates if the music title was guessed.</li>
+            </ul>
+         </div>
+         <h2>2. Log Data & Deletion</h2>
+         <p>Daily Music stores the aforementioned data only in specific cases (refer to the titles above). <br>It's important to note that once the Service leaves your server or you delete the configured channel, <b>ALL</b> data linked to that specific server will be <b>PERMANENTLY</b> deleted. <br><b>ALL</b> data linked to users who played our game is deleted <b>EVERY</b> 24 hours.</p>
          <h2>3. Use of Data</h2>
-         <p>The data we collect is solely used to ensure the proper functioning of the bot and to deliver the music of the day & the trivia of the day to the designated channel on the configured server. <br>This is to guarantee the smooth operation of the bot and its system.</p>
-         <h2>4. Disclosure of Data</h2>
-         <p>We do not disclose any data collected by the Service to third parties. <br>All collected data is used solely for the purpose of operating the bot and providing its services.</p>
-         <h2>5. Security</h2>
+         <p>The data we collect is solely used to ensure the proper functioning of the Service and to guarantee the smooth operation of its systems.</p>
+         <h2>4. Data Disclosure</h2>
+         <p>We do not disclose any collected data to third parties. <br>All data collected is used solely for the purpose of operating the Service and providing its services.</p>
+         <h2>5. Security Measures</h2>
          <p>The data we store is not publicly available and is protected with appropriate security measures to prevent unauthorized access.</p>
-         <h2>6. Links to Other Sites</h2>
-         <p>Our Service may contain links to other sites that are not operated by us. <br>If you click on a third-party link, you will be directed to that third party's site. <br>We strongly advise you to review the privacy policy of every site you visit.</p>
+         <h2>6. Links to External Sites</h2>
+         <p>Our Service may contain links to external sites not operated by us. <br>Clicking on a third-party link will direct you to that third party's site. <br>We strongly advise reviewing the privacy policy of any site you visit.</p>
          <h2>7. Changes to This Privacy Policy</h2>
-         <p>We may update our Privacy Policy from time to time. <br>We will notify you of any changes by posting the new Privacy Policy on this page.</p>
+         <p>We may update our Privacy Policy periodically. <br>Any changes will be published here.</p>
          <h2>8. Contact Us</h2>
-         <p>If you have any questions about this Privacy Policy, here are the ways to contact us:
+         <p>If you have any questions about this Privacy Policy, please feel free to contact us through the following channels:
          <ul>
             <li><a href="https://discord.gg/pqjxCxzNC3">By joining the official Discord server.</a></li>
             </p>
