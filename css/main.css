@@ -4,7 +4,7 @@
 
 
 body {
-	overflow-y: hidden;
+	overflow-x: hidden;
 	animation: slideIn 1.2s ease forwards;
 	font-size: 14px;
 }
