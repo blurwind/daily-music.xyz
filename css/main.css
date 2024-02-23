@@ -26,7 +26,7 @@ body {
 .container {
 	width: 100vw;
 	height: 100vh;
-	background: rgba(250, 250, 250, 1);
+	background: #fafafa;
 	opacity: 1;
 	display: flex;
 	flex-direction: column;
@@ -38,7 +38,7 @@ body {
 
 .title {
 	width: 401px;
-	color: rgba(121, 75, 236, 1);
+	color: #794bec;
 	position: absolute;
 	top: 295px;
 	left: 118px;
@@ -146,7 +146,7 @@ body {
 
 .vertical-bar {
 	position: absolute;
-	border-left: 1px solid rgba(23, 29, 34, 1);
+	border-left: 1px solid #171d22;
 	left: 185px;
 	height: 70px;
 	top: 30px;
@@ -154,7 +154,7 @@ body {
 
 .subtitle-0 {
 	width: 598px;
-	color: rgba(23, 29, 34, 1);
+	color: #171d22;
 	position: absolute;
 	top: 382px;
 	left: 188px;
@@ -168,7 +168,7 @@ body {
 
 .subtitle-1 {
 	width: 214px;
-	color: rgba(32, 35, 39, 1);
+	color: #202327;
 	position: absolute;
 	top: 44px;
 	left: 215px;
@@ -185,7 +185,7 @@ body {
 	width: 100%;
 	height: 4px;
 	border-radius: 4px;
-	background-color: rgba(121, 75, 236, 1);
+	background-color: #794bec;
 	bottom: -12px;
 	left: 0;
 	transform-origin: left;
@@ -200,7 +200,7 @@ body {
 
 .subtitle-2 {
 	width: 254px;
-	color: rgba(32, 35, 39, 1);
+	color: #202327;
 	position: absolute;
 	top: 44px;
 	left: 420px;
@@ -217,7 +217,7 @@ body {
 	width: 100%;
 	height: 4px;
 	border-radius: 4px;
-	background-color: rgba(121, 75, 236, 1);
+	background-color: #794bec;
 	bottom: -12px;
 	left: 0;
 	transform-origin: left;
@@ -232,7 +232,7 @@ body {
 
 .subtitle-3 {
 	width: 214px;
-	color: rgba(32, 35, 39, 1);
+	color: #202327;
 	position: absolute;
 	top: 44px;
 	left: 655px;
@@ -249,7 +249,7 @@ body {
 	width: 100%;
 	height: 4px;
 	border-radius: 4px;
-	background-color: rgba(121, 75, 236, 1);
+	background-color: #794bec;
 	bottom: -15px;
 	left: 0;
 	transform-origin: left;
@@ -264,7 +264,7 @@ body {
 
 .description {
 	width: 805px;
-	color: rgba(32, 35, 39, 1);
+	color: #202327;
 	position: absolute;
 	top: 533px;
 	left: 188px;
