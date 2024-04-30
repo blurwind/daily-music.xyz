@@ -77,8 +77,8 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
-  h1 {
-    white-space: initial;
+  body {
+    line-height: 1.2;
   }
   .content {
     padding: 10px;
