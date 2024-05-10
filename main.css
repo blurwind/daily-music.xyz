@@ -17,6 +17,7 @@ h1 {
   font-size: 94px;
   font-weight: 900;
   text-align: center;
+  white-space: nowrap;
 }
 
 p {
@@ -79,6 +80,9 @@ a {
 @media only screen and (max-width: 768px) {
   body {
     line-height: 1.2;
+  }
+  h1 {
+    white-space: inherit;
   }
   .content {
     padding: 10px;
