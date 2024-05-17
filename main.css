@@ -30,8 +30,8 @@ a {
   text-decoration: none;
 }
 
-.links:hover,
-.effect:hover {
+.links,
+.effect {
   -webkit-mask-image: linear-gradient(
     -75deg,
     rgba(0, 0, 0, 0.6) 30%,
