@@ -16,7 +16,7 @@ h1 {
 p {
 	font-size: 21px;
 	color: #c7c8cb;
-  line-height: 1.7;
+	line-height: 1.7;
 }
 
 a {
@@ -60,7 +60,6 @@ a {
 
 .scaleEffect {
   transition: transform 0.4s ease-in-out;
-  transform-origin: center;
 }
 
 .scaleEffect:hover {
